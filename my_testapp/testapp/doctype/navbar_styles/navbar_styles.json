@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "creation": "2023-06-23 13:54:07.354791",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "logo",
+  "backgroundcolour",
+  "searchbarposition"
+ ],
+ "fields": [
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "default": "#ffffff",
+   "fieldname": "backgroundcolour",
+   "fieldtype": "Color",
+   "label": "Background Colour"
+  },
+  {
+   "default": "Left",
+   "fieldname": "searchbarposition",
+   "fieldtype": "Select",
+   "label": "Searchbar Position",
+   "options": "Left\nCentre\nRight"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-23 15:02:14.959840",
+ "modified_by": "Administrator",
+ "module": "testapp",
+ "name": "Navbar Styles",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

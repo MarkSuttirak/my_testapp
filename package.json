@@ -1,0 +1,33 @@
+{
+  "name": "my_testapp",
+  "version": "1.0.0",
+  "description": "Test the app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd mytest && yarn dev",
+    "build": "cd mytest && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.0",
+    "@chakra-ui/react": "^2.7.1",
+    "@editorjs/editorjs": "^2.28.0",
+    "@editorjs/header": "^2.7.0",
+    "@editorjs/inline-code": "^1.4.0",
+    "@editorjs/list": "^1.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@heroicons/react": "^2.0.18",
+    "framer-motion": "^10.12.16",
+    "react-datepicker": "^4.14.1",
+    "react-hook-form": "^7.45.0",
+    "react-router-dom": "^6.13.0",
+    "sass": "^1.63.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
